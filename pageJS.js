@@ -1,0 +1,13 @@
+window.onload = function () {
+
+    getRandomSpinnerGif();
+    
+}
+
+function getRandomSpinnerGif() {
+    
+    let rndNum = Math.floor(Math.random() * 67);
+
+    document.getElementsByClassName("spinner")[0].innerHTML = '<img src="./img/gifs/' + rndNum + '.gif" height="125"/>';
+    document.getElementsByClassName("spinner")[1].innerHTML = '<img src="./img/gifs/' + rndNum + '.gif" height="125"/>';
+}

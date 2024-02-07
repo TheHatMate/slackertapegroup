@@ -1,0 +1,27 @@
+body {
+    background-color: black;
+    font-family: Helvetica;
+    color: white;
+    text-align: center;
+    font-size: 16pt;
+}
+
+a {
+    color: lightblue;
+}
+
+figcaption {
+    font-size: 10pt;
+}
+
+#header a {
+    font-size: larger;
+    text-decoration: underline overline;
+}
+
+#content, #footer {
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 1%;
+}
