@@ -17,7 +17,6 @@ figcaption {
 .grid {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr;
     gap: 10px;
     place-items: center;
     text-align: left;
@@ -28,7 +27,7 @@ figcaption {
 
     p {
         font-size: 12pt;
-        margin: 2px;
+        margin: 1px;
     }
 
     b {
@@ -39,10 +38,10 @@ figcaption {
         height: 275px;
     }
     
-    i {
+    .catnum {
         font-size: 8pt;
         color: lightgray;
-        margin-top: 2px;
+        margin-top: 1px;
     }
 }
 
@@ -56,4 +55,10 @@ figcaption {
     margin-left: auto;
     margin-right: auto;
     padding: 1%;
+}
+
+#content {
+    margin-top: 10px;
+    border: 10px;
+    border-color: grey;
 }
