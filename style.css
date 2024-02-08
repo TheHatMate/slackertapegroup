@@ -1,11 +1,9 @@
-
-
 body {
     background-color: black;
     font-family: Helvetica;
     color: white;
     text-align: center;
-    font-size: 16pt;
+    font-size: 13pt;
 }
 
 a {
@@ -14,6 +12,17 @@ a {
 
 figcaption {
     font-size: 10pt;
+}
+
+h1, h2, h3, h4, h5 {
+    margin: 10px;
+}
+
+.recent {
+    text-align: left;
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
 }
 
 .spingif {
@@ -54,7 +63,7 @@ figcaption {
 }
 
 #header a {
-    font-size: larger;
+    font-size: 18pt;
     text-decoration: underline overline;
 }
 
@@ -75,10 +84,19 @@ figcaption {
     height: 125px;
 }
 
+
+
 @media only screen and (max-width: 600px) {
     
     body {
         font-size: 12pt;
+    }
+
+    .recent {
+        text-align: left;
+        display: grid;
+        grid-template-columns: 2fr;
+        grid-template-rows: 2fr;
     }
 
     .grid {
