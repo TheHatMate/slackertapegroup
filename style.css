@@ -1,3 +1,5 @@
+
+
 body {
     background-color: black;
     font-family: Helvetica;
@@ -14,16 +16,22 @@ figcaption {
     font-size: 10pt;
 }
 
+.spingif {
+    height: 125px;
+}
+
 .grid {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     gap: 10px;
     place-items: center;
     text-align: left;
+    max-width: 1200px;
 }
 
 .album {
     padding: 15px;
+    max-width: 275px;
 
     p {
         font-size: 12pt;
@@ -35,7 +43,7 @@ figcaption {
     }
 
     img {
-        height: 275px;
+        max-height: 275px;
     }
     
     .catnum {
@@ -51,7 +59,7 @@ figcaption {
 }
 
 #content, #footer {
-    width: 1200px;
+    max-width: 1200px;
     margin-left: auto;
     margin-right: auto;
     padding: 1%;
@@ -61,4 +69,28 @@ figcaption {
     margin-top: 10px;
     border: 10px;
     border-color: grey;
+}
+
+#title {
+    height: 125px;
+}
+
+@media only screen and (max-width: 600px) {
+    
+    body {
+        font-size: 12pt;
+    }
+
+    .grid {
+        grid-template-columns: 1fr;
+    }
+
+    .spingif {
+        width: 10%;
+    }
+
+    #title {
+        height: 120px;
+        width: 75%;
+    }
 }
