@@ -29,13 +29,30 @@ h1, h2, h3, h4, h5 {
     height: 125px;
 }
 
-.grid {
+.music_grid {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     gap: 10px;
     place-items: center;
     text-align: left;
     max-width: 1200px;
+}
+
+.album_grid {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    gap: 10px;
+    place-items: left;
+    text-align: left;
+    max-width: 1200px;
+
+    img {
+        max-height: 450px;
+    }
+
+    hr {
+        border: dotted;
+    }
 }
 
 .album {
@@ -99,7 +116,7 @@ h1, h2, h3, h4, h5 {
         grid-template-rows: 1fr;
     }
 
-    .grid {
+    .music_grid {
         grid-template-columns: 1fr;
     }
 

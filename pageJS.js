@@ -6,7 +6,7 @@ window.onload = function () {
 
 function getRandomSpinnerGif() {
     
-    let rndNum = Math.floor(Math.random() * 66);
+    let rndNum = Math.floor(Math.random() * 67);
 
     document.getElementsByClassName("spinner")[0].innerHTML = '<img class="spingif" src="https://slackertapegroup.com/img/gifs/' + rndNum + '.gif">';
     document.getElementsByClassName("spinner")[1].innerHTML = '<img class="spingif" src="https://slackertapegroup.com/img/gifs/' + rndNum + '.gif">';
