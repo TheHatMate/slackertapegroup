@@ -120,6 +120,14 @@ h1, h2, h3, h4, h5 {
         grid-template-columns: 1fr;
     }
 
+    .album_grid {
+        grid-template-columns: 1fr;
+
+        img {
+            max-height: 350px;
+        }
+    }
+
     .spingif {
         width: 10%;
     }
