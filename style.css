@@ -3,8 +3,9 @@ body {
     font-family: Helvetica;
     color: white;
     text-align: center;
-    font-size: 13pt;
+    font-size: 14pt;
     letter-spacing: 0.5px;
+    line-height: 1.2;
 }
 
 a {
@@ -92,6 +93,44 @@ h1, h2, h3, h4, h5 {
     max-width: 900px;
     margin-left: auto;
     margin-right: auto;
+    line-height: 1.5;
+
+    h2, h3, h5 {
+        text-decoration: underline;
+    }
+
+    hr {
+        border: dotted;
+    }
+
+    img {
+        max-width: 450px;
+        justify-content: center;
+    }
+}
+
+.artwork {
+    text-align: left;
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+
+    img {
+        max-width: 1000px; 
+        justify-content: center;
+    }
+}
+
+.article {
+    text-align: left;
+    max-width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+    line-height: 1.5;
+
+    p {
+        text-indent: 25px;
+    }
 
     h2, h3, h5 {
         text-decoration: underline;
