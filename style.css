@@ -110,14 +110,14 @@ h1, h2, h3, h4, h5 {
 }
 
 .artwork {
-    text-align: left;
+    text-align: center;
     max-width: 1200px;
     margin-left: auto;
     margin-right: auto;
 
     img {
         max-width: 1000px; 
-        justify-content: center;
+        max-height: 768px;
     }
 }
 
@@ -223,7 +223,7 @@ h1, h2, h3, h4, h5 {
         }
     }
 
-    .news {
+    .news, .artwork{
         img {
             max-width:  95%;
         }
