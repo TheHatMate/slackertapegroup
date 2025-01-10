@@ -1,6 +1,7 @@
 window.onload = function () {
 
     getRandomSpinnerGif();
+    curTime();
     
 }
 
@@ -10,4 +11,9 @@ function getRandomSpinnerGif() {
 
     document.getElementsByClassName("spinner")[0].innerHTML = '<img class="spingif" src="https://slackertapegroup.com/img/gifs/' + rndNum + '.gif">';
     document.getElementsByClassName("spinner")[1].innerHTML = '<img class="spingif" src="https://slackertapegroup.com/img/gifs/' + rndNum + '.gif">';
+}
+
+function curTime() {
+    let x = document.lastModified;
+    document.getElementById("sudo").innerHTML = x;
 }
