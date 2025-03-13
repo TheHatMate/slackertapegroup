@@ -116,4 +116,10 @@
             This page last updated: <span id="sudo"></span>s
         </div>
     </body>
+    <script>
+        function curTime() {
+            let x = document.lastModified;
+            document.getElementById("sudo").innerHTML = x;
+        }
+    </script>
 </html>
